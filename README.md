@@ -54,7 +54,7 @@ Serão comparados os seguintes algoritmos:
 
 As implementações obrigatorias deveram estar disponiveis até o final da sprint, as opcionais deveram ser adicionadas caso as implementações obrigatorias estejam já completas e sobre tempo na sprint.
 
-##Implementação
+## Implementação
 
 A implementação será toda feita em linguagem C utilizando apenas bibliotecas padrão do C para assegurar a portabilidade do codigo.
 A mesma será executada em uma Sprint que foi definida no arquivo `sprint.md`.
