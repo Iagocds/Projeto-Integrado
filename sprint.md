@@ -23,8 +23,6 @@ graph TD;
 
 ```mermaid
 gantt
-    dateFormat D
-    axisFormat %D
     Initial milestone : milestone, m1, 1, 2D
     Task A : 10m
     Task B : 5m
