@@ -57,3 +57,7 @@ Planejamento para a proxima sprint.
 
 Foi implementado o algoritmo que gera a amostra o mesmo está disponivel para operação no github.
  Não foi encontrado nenhum impedimento a esta tarefa.
+
+### Backlog 2
+
+Foi implementado o algoritmo que lê o arquivo resposta da comparação. Tabém foi feito a correção do [BUG#1](https://github.com/Iagocds/Projeto-Integrado/issues/1).
