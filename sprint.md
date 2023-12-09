@@ -2,25 +2,47 @@
 
 Este documento contem as observações feitas durante a Sprint e a definição de equipe.
 
-![Metodo Scrum](/Documentação/Scrum_process.svg "Srum")
+Ciclo basico de uma Sprint:
 
-## Equipe
+```mermaid
+graph TD;
+    A[Backlog de Produto]-->B[Backlog de Sprint];
+    B --> C[Sprint];
+    C --> D[Reuniões Diárias];
+    D -->|Execução| D;
+    D --> C;
+    C -->|Conclusão da Sprint| E[Retrospectiva];
+    E --> B;
+```
 
-`Iago - Scrum master, Product Owner, Developmen Team`
+## Funções
 
-## Backlog
+`Iago - Scrum master, Product Owner, Time de Desenvolvimento`
+
+## Sprint Backlog
+
+```mermaid
+gantt
+    dateFormat D
+    axisFormat %D
+    Initial milestone : Sprint Backlog, m1, 1
+    Backlog 1 : 1
+    Backlog 2 : 2
+    Backlog 3 : 3
+    Final milestone : Retrospectiva, m2, 4
+```
 
 ### Backlog 1 - Implementar o programa que gera a amostra.
 
-  Implementar um programa que gera a amostra assim como definido no README.md
+Implementar um programa que gera a amostra assim como definido no README.md
 
 ### Backlog 2 - Implementar o programa que faz a leitura dos resultados.
 
-  Implementar um programa que gera a que faz a leitura dos resultados assim como definido no README.md
+Implementar um programa que gera a que faz a leitura dos resultados assim como definido no README.md
 
 ### Backlog 3 - Implementar o programa que testa a performance dos algoritmos.
 
-  Implementar um programa que testa a performance dos algoritmos assim como definido no README.md
+Implementar um programa que testa a performance dos algoritmos assim como definido no README.md
 
 ### Fim da Sprint, Retrospectiva
 
@@ -31,5 +53,5 @@ Planejamento para a proxima sprint.
 
 ### Backlog 1
 
-  Foi implementado o algoritmo que gera a amostra o mesmo está disponivel para operação no github.
-  Não foi encontrado nenhum impedimento a esta tarefa.
+Foi implementado o algoritmo que gera a amostra o mesmo está disponivel para operação no github.
+ Não foi encontrado nenhum impedimento a esta tarefa.
