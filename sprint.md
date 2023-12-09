@@ -25,9 +25,9 @@ graph TD;
 gantt
     dateFormat D
     axisFormat %D
-    Initial milestone : milestone, m1, 1, 1D
-    Task A : 1D
-    Task B : 1D
+    Sprint Backlog : milestone, m1, 1, 1D
+    Backlog 1 : 1d
+    Backlog 2 : 1d
     Final milestone : milestone, m2, 4, 4D
 ```
 
