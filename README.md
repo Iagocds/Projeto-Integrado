@@ -57,6 +57,6 @@ As implementações obrigatorias deveram estar disponiveis até o final da sprin
 ## Implementação
 
 A implementação será toda feita em linguagem C utilizando apenas bibliotecas padrão do C para assegurar a portabilidade do codigo.
-A mesma será executada em uma Sprint que foi definida no arquivo `sprint.md`.
+A mesma será executada em uma Sprint que foi definida no arquivo `[sprint.md](sprint.md)`.
 
 A execução dos programas para fins de teste será executado em um computador executando um sistema operacional compativel com `POSIX` e processador de 64 bits sendo o codigo fonte copilado com o copilador `GCC` utilizando a configuração padrão e sem flags de optimização. Os binarios utilizados nos testes será disponibilizado junto ao codigo fonte.
