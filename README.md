@@ -25,6 +25,8 @@ A Comparação é feita executando todos os algoritmos a serem testados em ordem
 Ao rodar o algoritmo o mesmo irá calcular o tempo necessario para concluir a ordenação de sua amostra e salvar no arquivo `resultados.txt`.
 O resultado pode ser avaliado pelo programa `checagem.c` ou por um leitor de arquivos de texto.
 
+O arquivo restultados vai conter o numero de clocks utilizado pelo processador para processar o arquivo dividido pelo numero de clocks por segundo em formato float junto ao nome do algoritmo utilizado.
+
 ### Algoritmos comparados
 
 Serão comparados os seguintes algoritmos:
@@ -50,6 +52,11 @@ Cocktail sort
 Timsort
 Quick sort
 
-As implementações obrigatorias deveram estar disponiveis até o final da sprint, as opcionais deveram ser adicionadas caso as implementações obrigatorias estejam já completas.
+As implementações obrigatorias deveram estar disponiveis até o final da sprint, as opcionais deveram ser adicionadas caso as implementações obrigatorias estejam já completas e sobre tempo na sprint.
 
 ##Implementação
+
+A implementação será toda feita em linguagem C utilizando apenas bibliotecas padrão do C para assegurar a portabilidade do codigo.
+A mesma será executada em uma Sprint que foi definida no arquivo `sprint.md`.
+
+A execução dos programas para fins de teste será executado em um computador executando um sistema operacional compativel com `POSIX` e processador de 64 bits sendo o codigo fonte copilado com o copilador `GCC` utilizando a configuração padrão e sem flags de optimização. Os binarios utilizados nos testes será disponibilizado junto ao codigo fonte.
