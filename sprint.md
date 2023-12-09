@@ -24,11 +24,12 @@ graph TD;
 ```mermaid
 gantt
     dateFormat D
-    axisFormat %D
-    Sprint Backlog : milestone, m1, 1, 1D
+    axisFormat %d
+    Sprint Backlog : milestone, m1, 1, 1d
     Backlog 1 : 1d
     Backlog 2 : 1d
-    Final milestone : milestone, m2, 4, 4D
+    Backlog 3 : 1d
+    Final milestone : milestone, m2, 4, 4d
 ```
 
 ### Backlog 1 - Implementar o programa que gera a amostra.
