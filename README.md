@@ -33,24 +33,24 @@ Serão comparados os seguintes algoritmos:
 
 >Implementação obrigatoria:
 >
->1.Insertion sort
->2.Selection sort
->3.Bubble sort
->4.Comb sort
->5.Bogo sort
+>1. Insertion sort
+>2. Selection sort
+>3. Bubble sort
+>4. Comb sort
+>5. Bogo sort
 >
 >Implementação opcional:
 >
->1.Merge sort
->2.Heapsort
->3.Shell sort
->4.Radix sort
->5.Gnome sort
->6.Counting sort
->7.Bucket sort
->8.Cocktail sort
->9.Timsort
->10.Quick sort
+>1. Merge sort
+>2. Heapsort
+>3. Shell sort
+>4. Radix sort
+>5. Gnome sort
+>6. Counting sort
+>7. Bucket sort
+>8. Cocktail sort
+>9. Timsort
+>10. Quick sort
 
 As implementações obrigatorias deveram estar disponiveis até o final da sprint, as opcionais deveram ser adicionadas caso as implementações obrigatorias estejam já completas e sobre tempo na sprint.
 
