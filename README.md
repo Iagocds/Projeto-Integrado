@@ -2,6 +2,7 @@
 Cadeira de Projeto Integrado
 
 Neste trabalho iremos identificar diferentes algoritmos de sequenciamento e vamos comparar a performance deles com uma amostra gerada de numeros aleatorios.
+O trabalho será desenvolvido utilizando a metodologia Scrum. O relatorio da sprint pode ser encontrado no arquivo `sprint.md`
 
 O codigo fonte deste projeto deve estar disponivel junto a documentação.
 Todo o binario disponibilizado junto ao codigo fonte é copilado para funcionar em um sistema compativel com POSIX de 64 bits.
@@ -24,39 +25,31 @@ A Comparação é feita executando todos os algoritmos a serem testados em ordem
 Ao rodar o algoritmo o mesmo irá calcular o tempo necessario para concluir a ordenação de sua amostra e salvar no arquivo `resultados.txt`.
 O resultado pode ser avaliado pelo programa `checagem.c` ou por um leitor de arquivos de texto.
 
-### Isso funciona em markdown?
+### Algoritmos comparados
 
+Serão comparados os seguintes algoritmos:
 
+Implementação obrigatoria:
 
+Insertion sort
+Selection sort
+Bubble sort
+Comb sort
+Bogo sort
 
-O Markdown é uma linguagem de marcação muito simples, desenvolvida por
-John Gruber.
+Implementação opcional:
 
-A ideia básica por trás da linguagem é fazer com que o escritor se
-preocupe mais com o **conteúdo** do texto do que com a *formatação*.
+Merge sort
+Heapsort
+Shell sort
+Radix sort
+Gnome sort
+Counting sort
+Bucket sort
+Cocktail sort
+Timsort
+Quick sort
 
-## Mais um título
+As implementações obrigatorias deveram estar disponiveis até o final da sprint, as opcionais deveram ser adicionadas caso as implementações obrigatorias estejam já completas.
 
-Aqui vamos tentar descrever uma análise.
-
-## Simulando variáveis aleatórias
-
-No R podemos simular valores de uma distribuição normal padrão através
-da função `rnorm()`.
-
-Seja $X \sim \text{N}(0,1)$, então para gerar 30 valores dessa variável
-aleatório normal, fazemos
-
-```
-(x <- rnorm(30))
-```
-
-Com o resultado dessa simulação, podemos calcular a média e a variância
-dessa VA $X$ para conferir se o resultado fica próximo de 0 e 1,
-respectivamente.
-
-Também podemos fazer um histograma dessa VA $X$ simulada
-
-```
-hist(x)
-```
+##Implementação
