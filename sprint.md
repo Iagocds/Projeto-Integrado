@@ -26,7 +26,7 @@ Consumo de backlog da Sprint:
 ```mermaid
 gantt
     dateFormat D
-    axisFormat %d
+    axisFormat %
     Sprint Backlog : milestone, m1, 1, 0d
     Backlog 1 : 1d
     Backlog 2 : 1d
