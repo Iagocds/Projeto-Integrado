@@ -25,11 +25,11 @@ graph TD;
 gantt
     dateFormat mm
     axisFormat %M
-    Sprint Backlog : milestone, m1, 0, 4m
+    Sprint Backlog : milestone, m1, 1, 4m
     Backlog 1 : 1m
     Backlog 2 : 1m
     Backlog 3 : 1m
-    Retrospectiva : milestone, m2, 4, 1m
+    Retrospectiva : milestone, m2, 5, 1m
 ```
 
 ### Backlog 1 - Implementar o programa que gera a amostra.
