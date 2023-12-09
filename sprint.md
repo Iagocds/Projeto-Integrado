@@ -2,6 +2,8 @@
 
 Este documento contem as observações feitas durante a Sprint e a definição de equipe.
 
+![Metodo Scrum](/Documentação/Scrum_process.svg "Srum")
+
 ## Equipe
 
 `Iago - Scrum master, Product Owner, Developmen Team`
