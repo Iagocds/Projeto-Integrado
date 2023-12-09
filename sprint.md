@@ -25,10 +25,10 @@ graph TD;
 gantt
     dateFormat mm
     axisFormat %M
-    Initial milestone : milestone, m1, 49, 2m
+    Initial milestone : milestone, m1, 00:00, 2m
     Task A : 10m
     Task B : 5m
-    Final milestone : milestone, m2, 08, 4m
+    Final milestone : milestone, m2, 00:04, 4m
 ```
 
 ### Backlog 1 - Implementar o programa que gera a amostra.
