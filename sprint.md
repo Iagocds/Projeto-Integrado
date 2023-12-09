@@ -21,6 +21,8 @@ graph TD;
 
 ## Sprint Backlog
 
+Consumo de backlog da Sprint:
+
 ```mermaid
 gantt
     dateFormat D
