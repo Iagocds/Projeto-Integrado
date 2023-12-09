@@ -1,4 +1,5 @@
 # Projeto-Integrado
+
 Cadeira de Projeto Integrado
 
 Neste trabalho iremos identificar diferentes algoritmos de sequenciamento e vamos comparar a performance deles com uma amostra gerada de numeros aleatorios.
@@ -31,32 +32,76 @@ O arquivo restultados vai conter o numero de clocks utilizado pelo processador p
 
 Serão comparados os seguintes algoritmos:
 
->Implementação obrigatoria:
->
->1. Insertion sort
->2. Selection sort
->3. Bubble sort
->4. Comb sort
->5. Bogo sort
->
->Implementação opcional:
->
->1. Merge sort
->2. Heapsort
->3. Shell sort
->4. Radix sort
->5. Gnome sort
->6. Counting sort
->7. Bucket sort
->8. Cocktail sort
->9. Timsort
->10. Quick sort
+> Implementação obrigatoria:
+> 
+> 1. Insertion sort
+> 2. Selection sort
+> 3. Bubble sort
+> 
+> Implementação opcional:
+> 
+> 1. Merge sort
+> 2. Heapsort
+> 3. Shell sort
+> 4. Radix sort
+> 5. Gnome sort
+> 6. Counting sort
+> 7. Bucket sort
+> 8. Cocktail sort
+> 9. Timsort
+> 10. Quick sort
 
 As implementações obrigatorias deveram estar disponiveis até o final da sprint, as opcionais deveram ser adicionadas caso as implementações obrigatorias estejam já completas e sobre tempo na sprint.
+
+#### Insert sort
+
+Logica Insert sort:
+
+```mermaid
+graph TD;
+    Z(Inicio)-->A
+    A[Loop pelo vetor]-->B[Achar o melhor lugar para o elemento atual junto aos elementos já analisados];
+    B-->C[Muda o local]
+    C --> D{Chegou ao final da vetor?};
+    D --> |Sim|E(FIM)
+    D --> |Não|A
+    
+```
+
+#### Selection sort
+
+Logica Selection sort:
+
+```mermaid
+graph TD;
+    Z(Inicio)-->A
+    A[Loop pelos elementos]-->B[Acha o proximo menor elemento];
+    B -->C[Muda o local do elemento]
+    C --> D{Chegou ao final da vetor?};
+    D --> |Sim|E(FIM)
+    D --> |Não|A
+```
+
+#### Bubble sort
+
+Logica Bubble sort:
+
+```mermaid
+graph TB;
+    Z(Inicio)-->A
+    A[Loop pelos elementos]-->B[Compara os dois elementos mais proximos];
+    B -->C[Muda o local do elemento]
+    C --> D{Chegou ao final da vetor?};
+    D --> |Sim|E(FIM)
+    D --> |Não|A
+```
+
+##
 
 ## Implementação
 
 A implementação será toda feita em linguagem C utilizando apenas bibliotecas padrão do C para assegurar a portabilidade do codigo.
-A mesma será executada em uma Sprint que foi definida no arquivo `[sprint.md](sprint.md)`.
+
+A mesma será executada em uma Sprint que foi definida no arquivo [sprint.md](sprint.md)
 
 A execução dos programas para fins de teste será executado em um computador executando um sistema operacional compativel com `POSIX` e processador de 64 bits sendo o codigo fonte copilado com o copilador `GCC` utilizando a configuração padrão e sem flags de optimização. Os binarios utilizados nos testes será disponibilizado junto ao codigo fonte.
