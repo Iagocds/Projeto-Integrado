@@ -2,13 +2,18 @@
 
 Cadeira de Projeto Integrado
 
+## Contextualização
+
 Neste trabalho iremos identificar diferentes algoritmos de sequenciamento e vamos comparar a performance deles com uma amostra gerada de numeros aleatorios.
+
 O trabalho será desenvolvido utilizando a metodologia Scrum. O relatorio da sprint pode ser encontrado no arquivo `sprint.md`
 
 O codigo fonte deste projeto deve estar disponivel junto a documentação.
 Todo o binario disponibilizado junto ao codigo fonte é copilado para funcionar em um sistema compativel com POSIX de 64 bits.
 
-## Amostra
+## Funcionamento
+
+### Amostra
 
 A amostra foi criada utilizando um algoritmo que gera variaveis aleatorias em C.
 
@@ -20,7 +25,7 @@ Cuidado!
 O numero maximo que pode ser utilizado em `MAX` é 2147483646.
 ```
 
-## Comparação
+### Comparação
 
 A Comparação é feita executando todos os algoritmos a serem testados em ordem e gravando o tempo de execução usando um timer do sistema.
 Ao rodar o algoritmo o mesmo irá calcular o tempo necessario para concluir a ordenação de sua amostra e salvar no arquivo `resultados.txt`.
@@ -65,7 +70,6 @@ graph TD;
     C --> D{Chegou ao final da vetor?};
     D --> |Sim|E(FIM)
     D --> |Não|A
-    
 ```
 
 #### Selection sort
@@ -93,10 +97,8 @@ graph TB;
     B -->C[Muda o local do elemento]
     C --> D{Chegou ao final da vetor?};
     D --> |Sim|E(FIM)
-    D --> |Não|A
+    D --> |Não|A 
 ```
-
-##
 
 ## Implementação
 
@@ -104,4 +106,8 @@ A implementação será toda feita em linguagem C utilizando apenas bibliotecas 
 
 A mesma será executada em uma Sprint que foi definida no arquivo [sprint.md](sprint.md)
 
+## Testes
+
 A execução dos programas para fins de teste será executado em um computador executando um sistema operacional compativel com `POSIX` e processador de 64 bits sendo o codigo fonte copilado com o copilador `GCC` utilizando a configuração padrão e sem flags de optimização. Os binarios utilizados nos testes será disponibilizado junto ao codigo fonte.
+
+O resultado esperado dos testes é um arquivo chamado `resultados.txt` com os resultados da execução do programa, mostrando o tempo de execução de cada um dos algoritmos.
