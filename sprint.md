@@ -61,3 +61,13 @@ Foi implementado o algoritmo que gera a amostra o mesmo está disponivel para op
 ### Backlog 2
 
 Foi implementado o algoritmo que lê o arquivo resposta da comparação. Tabém foi feito a correção do [BUG#1](https://github.com/Iagocds/Projeto-Integrado/issues/1).
+
+### Backlog 3
+
+Foi implementado o algoritmo de comparação.
+
+Não foi encontrado nenhum impedimento a esta tarefa.
+
+### Retrospectiva
+
+O trabalho foi feito em pouco tempo util e executado de forma a reduzir o tempo de trabalho em troca de qualidade no software. A execução do programa condiz com os requisitos.
