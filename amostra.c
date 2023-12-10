@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define MAX 100 //Quantidade de numeros aleatorios
+#define MAX 1000 //Quantidade de numeros aleatorios
 
 int main(void)
 {
