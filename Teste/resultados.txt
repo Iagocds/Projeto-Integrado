@@ -1,0 +1,3 @@
+Tempo medio de execução do insertion sort 7 microssegundo
+Tempo medio de execução do selection sort 11 microssegundo
+Tempo medio de execução do bubble sort 18 microssegundo
